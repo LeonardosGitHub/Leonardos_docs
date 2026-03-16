@@ -1,5 +1,5 @@
 
-## Websockets and Forward Proxy - BIG-IP
+# Websockets and Forward Proxy - BIG-IP
 
 ### Install, verify, and test WebSockets with wscat via F5 Forward Proxy
 
@@ -12,8 +12,7 @@
 
 #### Test WebSocket directly (no proxy)
 
-[!NOTE]
-Websocket.org provides a public endpoint for ws testing: wss://echo.websocket.org/.ws
+[NOTE] Websocket.org provides a public endpoint for ws testing: wss://echo.websocket.org/.ws
 
 1. wscat -c wss://echo.websocket.org/.ws
 
@@ -55,7 +54,7 @@ Connected (press CTRL+C to quit)
 ### BIG-IP
 - 17.5: [Securing applications that use WebSocket connections](https://techdocs.f5.com/en-us/bigip-17-5-0/big-ip-asm-implementations/securing-applications-that-use-websocket.html)
 - [K000132320: Overview of the Websocket profile](https://my.f5.com/manage/s/article/K000132320)
-- [BIG-IP AWAS websocket youtube video](https://www.youtube.com/watch?v=p15hIdq0w0M)
+- [BIG-IP AWAF websocket youtube video](https://www.youtube.com/watch?v=p15hIdq0w0M)
 
 ### XC
 - [K000147261: How to configure Websockets correctly on F5 XC platform?](https://my.f5.com/manage/s/article/K000147261)
